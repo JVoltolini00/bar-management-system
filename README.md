@@ -1,18 +1,18 @@
-#Gestionale Bar - Point of Sale (POS) System
+# Bar POS Management System
 
-Un sistema gestionale interattivo e leggero per bar e locali, sviluppato interamente in **Python**. Il progetto fornisce un'interfaccia utente visiva per la gestione dei tavoli, l'inserimento degli ordini, il monitoraggio del magazzino e la contabilità di base.
+Un sistema gestionale leggero e intuitivo per bar e locali, sviluppato in Python. 
+Il progetto fornisce un'interfaccia web-based per ottimizzare le operazioni quotidiane: gestione visiva dei tavoli, tracciamento degli ordini, controllo del magazzino e reportistica.
 
-Questo progetto è stato sviluppato sfruttando tecniche di **AI-Assisted Development**, dimostrando la capacità di utilizzare moderni strumenti di Intelligenza Artificiale per progettare, scrivere e ottimizzare codice funzionante orientato al business.
+## Funzionalità
 
-##Funzionalità Principali
-
-- **Mappa Tavoli Interattiva**: Un layout grafico (griglia) personalizzabile che simula la disposizione reale del locale (incluso il bancone).
-- **Gestione Ordini e Conto**: Apertura tavoli, aggiunta di prodotti con calcolo automatico del subtotale e chiusura conto con registrazione dell'incasso.
-- **Gestione Magazzino**: Pannello per aggiungere nuovi prodotti, definire le categorie, monitorare le scorte (con alert visivi sotto i 10 pezzi) e gestire i rifornimenti.
-- **Contabilità**: Dashboard integrata che calcola in tempo reale gli incassi giornalieri, mensili e annuali, mantenendo uno storico delle transazioni.
+- **Mappa Interattiva Sala**: Griglia personalizzabile con stato dei tavoli in tempo reale (libero/occupato).
+- **Gestione Ordini e Cassa**: Aggiunta prodotti, calcolo rapido del totale e registrazione incassi.
+- **Controllo Magazzino**: Inserimento nuovi articoli, categorizzazione e monitoraggio delle scorte (con alert visivi).
+- **Dashboard Contabile**: Riepilogo storico degli incassi (giornaliero, mensile e annuale).
 
 ## Stack Tecnologico
 
 - **Linguaggio**: Python 3
-- **Frontend / UI**: [Streamlit](https://streamlit.io/) (con iniezione di CSS personalizzato per UI/UX ottimizzata su schermi touch)
-- **Database**: SQLite (tramite modulo nativo `sqlite3`)
+- **Frontend**: [Streamlit](https://streamlit.io/) (con CSS personalizzato)
+- **Database**: SQLite (`sqlite3`)
+
